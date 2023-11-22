@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #f00000;
+    padding: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.7px;
+}
+
+h1, h2 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.stats-container{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 30px 30px;
+    max-width: 100%;
+}
+
+.title, .tournament {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.logo {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+.red {
+    color: red;
+  }
+  
+.green {
+    color: green;
+  }
+
+.games-table {
+    width: 100%;
+    max-width:800px;
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.games-table th, .games-table td {
+    width: 160px;
+}
+
+.games-table th {
+    border:1px solid #b3adad;
+    background: #e90c0c;
+    color: #fbf9f9;
+    font-weight: 400;
+}
+.games-table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    background: #ffffff;
+    color: #313030;
+}
+
+.games-table .empty-cell {
+    background-color: #ffffff;
+    color: #e90c0c;
+}
+
+@media only screen and (max-width: 560px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .stats-container {
+        padding: 5px 15px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    th,  td {
+        font-size: 12px;
+    }
+}
